@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3294E61BA9E750862FD4AB /* libPods-Hummingwave Authenticator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C486136501D779C69923E271 /* libPods-Hummingwave Authenticator.a */; };
+		E5E502CB2109770F0088A474 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E502CA2109770F0088A474 /* AppDelegate.swift */; };
+		E5E502CD2109770F0088A474 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E502CC2109770F0088A474 /* ViewController.swift */; };
+		E5E502D02109770F0088A474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E502CE2109770F0088A474 /* Main.storyboard */; };
+		E5E502D2210977120088A474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E502D1210977120088A474 /* Assets.xcassets */; };
+		E5E502D5210977120088A474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E502D3210977120088A474 /* LaunchScreen.storyboard */; };
+		E5E502E0210977120088A474 /* Hummingwave_AuthenticatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E502DF210977120088A474 /* Hummingwave_AuthenticatorTests.swift */; };
+		E5E502EB210977120088A474 /* Hummingwave_AuthenticatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E502EA210977120088A474 /* Hummingwave_AuthenticatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5E502DC210977120088A474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5E502BF2109770F0088A474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E502C62109770F0088A474;
+			remoteInfo = "Hummingwave Authenticator";
+		};
+		E5E502E7210977120088A474 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5E502BF2109770F0088A474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5E502C62109770F0088A474;
+			remoteInfo = "Hummingwave Authenticator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6D0293EB30804A9E57E20D /* Pods-Hummingwave Authenticator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hummingwave Authenticator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hummingwave Authenticator/Pods-Hummingwave Authenticator.debug.xcconfig"; sourceTree = "<group>"; };
+		30FA6EEC1480323FC22601EB /* Pods_Hummingwave_AuthenticatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hummingwave_AuthenticatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372F439E5A3929864F2C4282 /* Pods-Hummingwave Authenticator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hummingwave Authenticator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hummingwave Authenticator/Pods-Hummingwave Authenticator.release.xcconfig"; sourceTree = "<group>"; };
+		BBAEF70B23DEB1CD786BF6A2 /* Pods_Hummingwave_AuthenticatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hummingwave_AuthenticatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486136501D779C69923E271 /* libPods-Hummingwave Authenticator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Hummingwave Authenticator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E502C72109770F0088A474 /* Hummingwave Authenticator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hummingwave Authenticator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E502CA2109770F0088A474 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5E502CC2109770F0088A474 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E5E502CF2109770F0088A474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5E502D1210977120088A474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5E502D4210977120088A474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5E502D6210977120088A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E502DB210977120088A474 /* Hummingwave AuthenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hummingwave AuthenticatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E502DF210977120088A474 /* Hummingwave_AuthenticatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hummingwave_AuthenticatorTests.swift; sourceTree = "<group>"; };
+		E5E502E1210977120088A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E502E6210977120088A474 /* Hummingwave AuthenticatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hummingwave AuthenticatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E502EA210977120088A474 /* Hummingwave_AuthenticatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hummingwave_AuthenticatorUITests.swift; sourceTree = "<group>"; };
+		E5E502EC210977120088A474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5E502C42109770F0088A474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3294E61BA9E750862FD4AB /* libPods-Hummingwave Authenticator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502D8210977120088A474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502E3210977120088A474 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9BA3E3EE219DDD3751B20B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30FA6EEC1480323FC22601EB /* Pods_Hummingwave_AuthenticatorTests.framework */,
+				BBAEF70B23DEB1CD786BF6A2 /* Pods_Hummingwave_AuthenticatorUITests.framework */,
+				C486136501D779C69923E271 /* libPods-Hummingwave Authenticator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5E502BE2109770F0088A474 = {
+			isa = PBXGroup;
+			children = (
+				E5E502C92109770F0088A474 /* Hummingwave Authenticator */,
+				E5E502DE210977120088A474 /* Hummingwave AuthenticatorTests */,
+				E5E502E9210977120088A474 /* Hummingwave AuthenticatorUITests */,
+				E5E502C82109770F0088A474 /* Products */,
+				EE54F44E78EA7159A765B8CB /* Pods */,
+				AA9BA3E3EE219DDD3751B20B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5E502C82109770F0088A474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5E502C72109770F0088A474 /* Hummingwave Authenticator.app */,
+				E5E502DB210977120088A474 /* Hummingwave AuthenticatorTests.xctest */,
+				E5E502E6210977120088A474 /* Hummingwave AuthenticatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5E502C92109770F0088A474 /* Hummingwave Authenticator */ = {
+			isa = PBXGroup;
+			children = (
+				E5E502CA2109770F0088A474 /* AppDelegate.swift */,
+				E5E502CC2109770F0088A474 /* ViewController.swift */,
+				E5E502CE2109770F0088A474 /* Main.storyboard */,
+				E5E502D1210977120088A474 /* Assets.xcassets */,
+				E5E502D3210977120088A474 /* LaunchScreen.storyboard */,
+				E5E502D6210977120088A474 /* Info.plist */,
+			);
+			path = "Hummingwave Authenticator";
+			sourceTree = "<group>";
+		};
+		E5E502DE210977120088A474 /* Hummingwave AuthenticatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5E502DF210977120088A474 /* Hummingwave_AuthenticatorTests.swift */,
+				E5E502E1210977120088A474 /* Info.plist */,
+			);
+			path = "Hummingwave AuthenticatorTests";
+			sourceTree = "<group>";
+		};
+		E5E502E9210977120088A474 /* Hummingwave AuthenticatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5E502EA210977120088A474 /* Hummingwave_AuthenticatorUITests.swift */,
+				E5E502EC210977120088A474 /* Info.plist */,
+			);
+			path = "Hummingwave AuthenticatorUITests";
+			sourceTree = "<group>";
+		};
+		EE54F44E78EA7159A765B8CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A6D0293EB30804A9E57E20D /* Pods-Hummingwave Authenticator.debug.xcconfig */,
+				372F439E5A3929864F2C4282 /* Pods-Hummingwave Authenticator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5E502C62109770F0088A474 /* Hummingwave Authenticator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E502EF210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave Authenticator" */;
+			buildPhases = (
+				A9ED7AEB51C6FBB75FB0CC3A /* [CP] Check Pods Manifest.lock */,
+				E5E502C32109770F0088A474 /* Sources */,
+				E5E502C42109770F0088A474 /* Frameworks */,
+				E5E502C52109770F0088A474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hummingwave Authenticator";
+			productName = "Hummingwave Authenticator";
+			productReference = E5E502C72109770F0088A474 /* Hummingwave Authenticator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5E502DA210977120088A474 /* Hummingwave AuthenticatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E502F2210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave AuthenticatorTests" */;
+			buildPhases = (
+				E5E502D7210977120088A474 /* Sources */,
+				E5E502D8210977120088A474 /* Frameworks */,
+				E5E502D9210977120088A474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E502DD210977120088A474 /* PBXTargetDependency */,
+			);
+			name = "Hummingwave AuthenticatorTests";
+			productName = "Hummingwave AuthenticatorTests";
+			productReference = E5E502DB210977120088A474 /* Hummingwave AuthenticatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5E502E5210977120088A474 /* Hummingwave AuthenticatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E502F5210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave AuthenticatorUITests" */;
+			buildPhases = (
+				E5E502E2210977120088A474 /* Sources */,
+				E5E502E3210977120088A474 /* Frameworks */,
+				E5E502E4210977120088A474 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5E502E8210977120088A474 /* PBXTargetDependency */,
+			);
+			name = "Hummingwave AuthenticatorUITests";
+			productName = "Hummingwave AuthenticatorUITests";
+			productReference = E5E502E6210977120088A474 /* Hummingwave AuthenticatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5E502BF2109770F0088A474 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rajan Kumar Soni";
+				TargetAttributes = {
+					E5E502C62109770F0088A474 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E5E502DA210977120088A474 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E5E502C62109770F0088A474;
+					};
+					E5E502E5210977120088A474 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E5E502C62109770F0088A474;
+					};
+				};
+			};
+			buildConfigurationList = E5E502C22109770F0088A474 /* Build configuration list for PBXProject "Hummingwave Authenticator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5E502BE2109770F0088A474;
+			productRefGroup = E5E502C82109770F0088A474 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5E502C62109770F0088A474 /* Hummingwave Authenticator */,
+				E5E502DA210977120088A474 /* Hummingwave AuthenticatorTests */,
+				E5E502E5210977120088A474 /* Hummingwave AuthenticatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5E502C52109770F0088A474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E502D5210977120088A474 /* LaunchScreen.storyboard in Resources */,
+				E5E502D2210977120088A474 /* Assets.xcassets in Resources */,
+				E5E502D02109770F0088A474 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502D9210977120088A474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502E4210977120088A474 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9ED7AEB51C6FBB75FB0CC3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hummingwave Authenticator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5E502C32109770F0088A474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E502CD2109770F0088A474 /* ViewController.swift in Sources */,
+				E5E502CB2109770F0088A474 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502D7210977120088A474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E502E0210977120088A474 /* Hummingwave_AuthenticatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E502E2210977120088A474 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E502EB210977120088A474 /* Hummingwave_AuthenticatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5E502DD210977120088A474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E502C62109770F0088A474 /* Hummingwave Authenticator */;
+			targetProxy = E5E502DC210977120088A474 /* PBXContainerItemProxy */;
+		};
+		E5E502E8210977120088A474 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5E502C62109770F0088A474 /* Hummingwave Authenticator */;
+			targetProxy = E5E502E7210977120088A474 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5E502CE2109770F0088A474 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E502CF2109770F0088A474 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5E502D3210977120088A474 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5E502D4210977120088A474 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5E502ED210977120088A474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E5E502EE210977120088A474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5E502F0210977120088A474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A6D0293EB30804A9E57E20D /* Pods-Hummingwave Authenticator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave Authenticator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-Authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5E502F1210977120088A474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372F439E5A3929864F2C4282 /* Pods-Hummingwave Authenticator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave Authenticator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-Authenticator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5E502F3210977120088A474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave AuthenticatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-AuthenticatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hummingwave Authenticator.app/Hummingwave Authenticator";
+			};
+			name = Debug;
+		};
+		E5E502F4210977120088A474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave AuthenticatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-AuthenticatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hummingwave Authenticator.app/Hummingwave Authenticator";
+			};
+			name = Release;
+		};
+		E5E502F6210977120088A474 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave AuthenticatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-AuthenticatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hummingwave Authenticator";
+			};
+			name = Debug;
+		};
+		E5E502F7210977120088A474 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Hummingwave AuthenticatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Unigalso.Hummingwave-AuthenticatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hummingwave Authenticator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5E502C22109770F0088A474 /* Build configuration list for PBXProject "Hummingwave Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E502ED210977120088A474 /* Debug */,
+				E5E502EE210977120088A474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E502EF210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave Authenticator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E502F0210977120088A474 /* Debug */,
+				E5E502F1210977120088A474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E502F2210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave AuthenticatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E502F3210977120088A474 /* Debug */,
+				E5E502F4210977120088A474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E502F5210977120088A474 /* Build configuration list for PBXNativeTarget "Hummingwave AuthenticatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5E502F6210977120088A474 /* Debug */,
+				E5E502F7210977120088A474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5E502BF2109770F0088A474 /* Project object */;
+}
